@@ -12,7 +12,7 @@ const hazeSound = new Audio('sounds/mist.mp3');
 
 search.addEventListener('click', () => {
 
-    const APIKey = '971690367893a88f4625d573e430096e';
+    const APIKey = 'YOUR API KEY';
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
